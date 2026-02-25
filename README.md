@@ -1,26 +1,28 @@
 # Affiliate Marketing ETL Pipeline
 
-## 📌 Overview
+##  Overview
 This project analyzes affiliate marketing data (clicks & conversions) to generate campaign performance insights.
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - Python
 - Pandas
 - Matplotlib
+## Architecture
+Raw Data → Data Cleaning → Transformation → Feature Engineering → Aggregation → Analytics
 
-## 🚀 Steps
+##  Steps
 - Data Cleaning (missing values, duplicates)
 - Data Transformation (join datasets)
 - Feature Engineering
 - KPI Calculation
 
-## 📊 Metrics
+##  Metrics
 - Conversion Rate
 - Approval Rate
 - Revenue
 - Campaign Performance
 
-## 📁 Project Structure
+##  Project Structure
 affiliate-marketing-etl/
 │
 ├── data/
@@ -29,7 +31,7 @@ affiliate-marketing-etl/
 ├── README.md
 └── requirements.txt
 
-## 📈 Output
+## Output
 - Campaign insights
 - Performance metrics
 - Visualization charts
